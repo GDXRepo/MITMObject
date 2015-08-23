@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF0560BA1B89B7A200FF3D66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0560B91B89B7A200FF3D66 /* main.m */; };
+		CF0560BD1B89B7A200FF3D66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0560BC1B89B7A200FF3D66 /* AppDelegate.m */; };
+		CF0560C51B89B7A200FF3D66 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF0560C41B89B7A200FF3D66 /* Images.xcassets */; };
+		CF0560E51B89B81300FF3D66 /* SingleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0560E01B89B81300FF3D66 /* SingleViewController.m */; };
+		CF0560E61B89B81300FF3D66 /* SingleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF0560E11B89B81300FF3D66 /* SingleViewController.xib */; };
+		CF0560E71B89B81300FF3D66 /* MITMObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0560E41B89B81300FF3D66 /* MITMObject.m */; };
+		CF0560EB1B89B87300FF3D66 /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0560EA1B89B87300FF3D66 /* MyScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF0560B41B89B7A200FF3D66 /* MITMObjectSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MITMObjectSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF0560B81B89B7A200FF3D66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF0560B91B89B7A200FF3D66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF0560BB1B89B7A200FF3D66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF0560BC1B89B7A200FF3D66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF0560C41B89B7A200FF3D66 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CF0560DF1B89B81300FF3D66 /* SingleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleViewController.h; sourceTree = "<group>"; };
+		CF0560E01B89B81300FF3D66 /* SingleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleViewController.m; sourceTree = "<group>"; };
+		CF0560E11B89B81300FF3D66 /* SingleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SingleViewController.xib; sourceTree = "<group>"; };
+		CF0560E31B89B81300FF3D66 /* MITMObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MITMObject.h; sourceTree = "<group>"; };
+		CF0560E41B89B81300FF3D66 /* MITMObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MITMObject.m; sourceTree = "<group>"; };
+		CF0560E91B89B87300FF3D66 /* MyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
+		CF0560EA1B89B87300FF3D66 /* MyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF0560B11B89B7A200FF3D66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF0560AB1B89B7A200FF3D66 = {
+			isa = PBXGroup;
+			children = (
+				CF0560B61B89B7A200FF3D66 /* MITMObjectSample */,
+				CF0560B51B89B7A200FF3D66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF0560B51B89B7A200FF3D66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF0560B41B89B7A200FF3D66 /* MITMObjectSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF0560B61B89B7A200FF3D66 /* MITMObjectSample */ = {
+			isa = PBXGroup;
+			children = (
+				CF0560DD1B89B81300FF3D66 /* Classes */,
+				CF0560BB1B89B7A200FF3D66 /* AppDelegate.h */,
+				CF0560BC1B89B7A200FF3D66 /* AppDelegate.m */,
+				CF0560C41B89B7A200FF3D66 /* Images.xcassets */,
+				CF0560B81B89B7A200FF3D66 /* Info.plist */,
+				CF0560B91B89B7A200FF3D66 /* main.m */,
+			);
+			path = MITMObjectSample;
+			sourceTree = "<group>";
+		};
+		CF0560DD1B89B81300FF3D66 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CF0560E81B89B86700FF3D66 /* View */,
+				CF0560DE1B89B81300FF3D66 /* Presenter */,
+				CF0560E21B89B81300FF3D66 /* Vendor */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CF0560DE1B89B81300FF3D66 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CF0560DF1B89B81300FF3D66 /* SingleViewController.h */,
+				CF0560E01B89B81300FF3D66 /* SingleViewController.m */,
+				CF0560E11B89B81300FF3D66 /* SingleViewController.xib */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CF0560E21B89B81300FF3D66 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				CF0560E31B89B81300FF3D66 /* MITMObject.h */,
+				CF0560E41B89B81300FF3D66 /* MITMObject.m */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		CF0560E81B89B86700FF3D66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF0560E91B89B87300FF3D66 /* MyScrollView.h */,
+				CF0560EA1B89B87300FF3D66 /* MyScrollView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF0560B31B89B7A200FF3D66 /* MITMObjectSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF0560D71B89B7A200FF3D66 /* Build configuration list for PBXNativeTarget "MITMObjectSample" */;
+			buildPhases = (
+				CF0560B01B89B7A200FF3D66 /* Sources */,
+				CF0560B11B89B7A200FF3D66 /* Frameworks */,
+				CF0560B21B89B7A200FF3D66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MITMObjectSample;
+			productName = MITMObjectSample;
+			productReference = CF0560B41B89B7A200FF3D66 /* MITMObjectSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF0560AC1B89B7A200FF3D66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Georgiy Malyukov";
+				TargetAttributes = {
+					CF0560B31B89B7A200FF3D66 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = CF0560AF1B89B7A200FF3D66 /* Build configuration list for PBXProject "MITMObjectSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF0560AB1B89B7A200FF3D66;
+			productRefGroup = CF0560B51B89B7A200FF3D66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF0560B31B89B7A200FF3D66 /* MITMObjectSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF0560B21B89B7A200FF3D66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF0560E61B89B81300FF3D66 /* SingleViewController.xib in Resources */,
+				CF0560C51B89B7A200FF3D66 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF0560B01B89B7A200FF3D66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF0560BD1B89B7A200FF3D66 /* AppDelegate.m in Sources */,
+				CF0560E71B89B81300FF3D66 /* MITMObject.m in Sources */,
+				CF0560BA1B89B7A200FF3D66 /* main.m in Sources */,
+				CF0560EB1B89B87300FF3D66 /* MyScrollView.m in Sources */,
+				CF0560E51B89B81300FF3D66 /* SingleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CF0560D51B89B7A200FF3D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF0560D61B89B7A200FF3D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF0560D81B89B7A200FF3D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MITMObjectSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF0560D91B89B7A200FF3D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MITMObjectSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF0560AF1B89B7A200FF3D66 /* Build configuration list for PBXProject "MITMObjectSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF0560D51B89B7A200FF3D66 /* Debug */,
+				CF0560D61B89B7A200FF3D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF0560D71B89B7A200FF3D66 /* Build configuration list for PBXNativeTarget "MITMObjectSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF0560D81B89B7A200FF3D66 /* Debug */,
+				CF0560D91B89B7A200FF3D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF0560AC1B89B7A200FF3D66 /* Project object */;
+}
