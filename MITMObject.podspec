@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "MITMObject"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "Delegate calls interceptor based on Man-In-The-Middle attack principles, useful for subclassing Foundation classes."
   s.homepage         = "https://github.com/GDXRepo/MITMObject"
   s.license          = { :type => "Apache", :file => "LICENSE" }
