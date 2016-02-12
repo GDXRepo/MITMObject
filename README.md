@@ -4,7 +4,7 @@ MITMObject can be used to subclass Foundation classes with overriding system del
 
 ## Adding MITMObject to your project
 
-### Cocoapods
+### CocoaPods
 
 [CocoaPods](http://cocoapods.org) is the recommended way to add MITMObject to your project.
 
